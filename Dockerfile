@@ -17,7 +17,7 @@ ENV SASS_BINARY_SITE https://npm.taobao.org/mirrors/node-sass/
 RUN npm i -g nrm --registry=https://registry.npm.taobao.org && nrm use taobao
 
 # install global npm packages
-RUN npm i -g pm2 trymodule
+RUN npm i -g pm2 trymodule lerna
 
 # switch to user node
 USER node
